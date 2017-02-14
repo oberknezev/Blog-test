@@ -1,0 +1,110 @@
+/*
+
+CSS responsive file that refers to HEADER and FOOTER on every page
+*/
+/* 
+    Created on : Sep 14, 2016, 5:43:40 PM
+    Author     : Stasha
+*/
+
+
+
+
+
+@media (min-width: 768px) {
+
+    .header-top .links{
+        float:left;
+    } 
+    .header-top .search{
+        float:right;
+    } 
+    .mainNav{
+        display: inline-block;
+    }
+    .dropdown-menu .options:nth-child(3){
+        margin-top: 0px;
+    }
+    .dropdown-menu .options:nth-child(4){
+        margin-top: 0px;
+    }
+    .dropdown-menu a.moments{
+        font-size: 12px;
+    }
+
+
+    .dropdown-menu .options figure{
+        height: 120px;
+    }
+    .dropdown-menu .options figure img{
+        height: auto;
+    }
+    .dropdown-menu{
+        margin-left: -50px;
+    }
+}
+
+
+
+
+
+@media (min-width: 992px) {
+
+
+    .header-bottom ul li{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .dropdown-menu{
+        margin-left: -150px;
+    }
+    .dropdown-menu a.moments{
+        font-size: 16px;
+    }
+    .dropdown-menu{
+        font-size: 18px;
+    }
+    .dropdown-menu .options figure{
+        height: 180px;
+    }
+    .footer-top ul{
+        margin-left: 180px;
+    }
+    .footer-top .back{
+        float: right;   
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+    .dropdown-menu{
+        margin-left: -250px;
+    }
+    .dropdown-menu figure{
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

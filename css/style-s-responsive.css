@@ -1,0 +1,201 @@
+/*
+
+CSS responsive file that refers to dressing blog and inner page
+*/
+/* 
+    Created on : Sep 14, 2016, 5:43:40 PM
+    Author     : Stasha
+*/
+
+@media (min-width: 768px) {
+    .carousel-control .fa{
+        font-size: 100px;
+        margin-top: 100%;
+    }  
+
+    .other ul.social li a{
+        display: inline-block;
+        width:30px;
+        height:30px;
+        background: #000;
+        border-radius: 50%;
+        margin-left: 0px;    
+    }
+    .other ul.social li a .fa{
+        font-size: 12px;
+        color:  #fff;
+        padding-left: 5px;
+        padding-top: 0px;
+    }
+
+    .galereya-grid {
+        margin: -10px!important;
+    }
+    .carousel .carousel-caption { 
+        bottom:5%;
+    }
+
+    .carousel .carousel-caption a{
+        color: #fff;
+        text-decoration: none;
+        border:4px solid #fff;
+        padding:20px;
+        font-size: 20px;
+        font-family:  'Josefin Sans', sans-serif;
+        letter-spacing: 3px;
+        font-weight: bold;
+    }
+    .carousel .carousel-caption img{
+        display: block;
+        margin: 0 auto;
+    }
+    .carousel .carousel-caption p{ 
+        color: #fff;
+        font-size: 14px;
+        letter-spacing: 2px;
+        font-family:  'Josefin Sans', sans-serif;
+        font-weight: bold;
+        display: block; 
+
+    }
+    .carousel .carousel-caption h2{ 
+        color: #fff;
+        font-size: 20px;
+        letter-spacing: 2px;
+        font-family:  'Josefin Sans', sans-serif;
+        font-weight: bold;
+        margin-bottom: 40px;
+        display: block; 
+    }
+
+
+}
+
+
+
+
+
+@media (min-width: 992px) {
+
+    .carousel-control .fa{
+        font-size: 150px;
+        margin-top: 70%;
+    }
+
+    .other ul.social li a{
+        display: inline-block;
+        width:45px;
+        height:45px;
+        background: #000;
+        border-radius: 50%;
+        margin-left: 0px;    
+    }
+    .other ul.social li a .fa{
+        font-size: 18px;
+        color:  #fff;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+
+    .carousel .carousel-caption { 
+        bottom:10%;
+    }
+    .carousel .carousel-caption a{
+        color: #fff;
+        text-decoration: none;
+        border:4px solid #fff;
+        padding:20px;
+        font-size: 20px;
+        font-family:  'Josefin Sans', sans-serif;
+        letter-spacing: 3px;
+        font-weight: bold;
+    }
+    .carousel .carousel-caption p{ 
+        color: #fff;
+        font-size: 14px;
+        letter-spacing: 2px;
+        font-family:  'Josefin Sans', sans-serif;
+        font-weight: bold;   
+    }
+    .carousel .carousel-caption h2{ 
+        color: #fff;
+        font-size: 20px;
+        letter-spacing: 2px;
+        font-family:  'Josefin Sans', sans-serif;
+        font-weight: bold;
+        margin-bottom: 80px;  
+    }
+
+
+
+}
+
+
+
+@media (min-width: 1200px) {
+
+    .carousel-control .fa{
+        font-size: 200px;
+        margin-top: 80%;
+    }
+
+    figure.second img {
+        margin-left: 10px
+    }
+    figure.fifth img {
+        margin-left: 10px;
+        margin-top: -60px;  
+    }
+    .other ul.social li a{
+        display: inline-block;
+        width:50px;
+        height:50px;
+        background: #000;
+        border-radius: 50%;
+        margin-left: 8px;    
+    }
+    .other ul.social li a .fa{
+        font-size: 18px;
+        color:  #fff;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .carousel .carousel-caption { 
+        bottom:20%;
+    }
+    .carousel .carousel-caption a{
+        color: #fff;
+        text-decoration: none;
+        border:4px solid #fff;
+        padding:30px;
+        font-size: 24px;
+        font-family:  'Josefin Sans', sans-serif;
+        letter-spacing: 3px;
+        font-weight: bold;
+    }
+    .carousel .carousel-caption p{ 
+        color: #fff;
+        font-size: 20px;
+        letter-spacing: 2px;
+        font-family:  'Josefin Sans', sans-serif;
+        font-weight: bold;   
+    }
+    .carousel .carousel-caption h2{ 
+        color: #fff;
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-family:  'Josefin Sans', sans-serif;
+        font-weight: bold;
+        margin-bottom: 120px;
+
+    }
+    .share ul li a{
+        font-size: 16px;
+        margin-right: 80px;
+    }
+
+
+
+
+}
+
